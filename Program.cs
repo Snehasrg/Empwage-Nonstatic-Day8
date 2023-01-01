@@ -8,7 +8,6 @@ namespace NonstaticEmpWage
         {
             Console.WriteLine("Welcome to Employee Wage Computation by Non static method");
 
-           
         }
     }
 }
