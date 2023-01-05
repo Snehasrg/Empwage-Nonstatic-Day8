@@ -17,11 +17,11 @@ namespace NonstaticEmpWage
             // ParttimeEmpWageNonstatic obj = new ParttimeEmpWageNonstatic();
              //obj.CheckWage();
 
-             SwitchcaseNonstatic obj = new SwitchcaseNonstatic();
-             obj.CheckWage();
+             //SwitchcaseNonstatic obj = new SwitchcaseNonstatic();
+             //obj.CheckWage();
 
-            //EmpMonthWageNonstatic obj = new EmpMonthWageNonstatic();
-            //obj.CheckWage();
+            EmpMonthWageNonstatic obj = new EmpMonthWageNonstatic();
+            obj.CheckWage();
 
             //CondTotalNonstatic obj = new CondTotalNonstatic();
             //obj.CheckWage();
