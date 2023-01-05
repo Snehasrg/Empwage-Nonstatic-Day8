@@ -11,11 +11,11 @@ namespace NonstaticEmpWage
            // CheckAttendence obj = new CheckAttendence();
            // obj.check();
 
-             DailyEmpWageNonstatic obj = new DailyEmpWageNonstatic();
-             obj.CheckWage();
-
-            // ParttimeEmpWageNonstatic obj = new ParttimeEmpWageNonstatic();
+           //  DailyEmpWageNonstatic obj = new DailyEmpWageNonstatic();
             // obj.CheckWage();
+
+             ParttimeEmpWageNonstatic obj = new ParttimeEmpWageNonstatic();
+             obj.CheckWage();
 
             // SwitchcaseNonstatic obj = new SwitchcaseNonstatic();
             //obj.CheckWage();
