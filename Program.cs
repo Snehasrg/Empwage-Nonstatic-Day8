@@ -6,10 +6,10 @@ namespace NonstaticEmpWage
     {
         public static void Main(String[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage Computation by Non static method");
+           // Console.WriteLine("Welcome to Employee Wage Computation by Non static method");
            
-            //CheckAttendNonstatic obj = new CheckAttendNonstatic();
-            //obj.checkAttendence();
+            CheckAttendence obj = new CheckAttendence();
+            obj.check();
 
             // DailyEmpWageNonstatic obj = new DailyEmpWageNonstatic();
             //obj.CheckWage();
