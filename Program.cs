@@ -14,11 +14,11 @@ namespace NonstaticEmpWage
            //  DailyEmpWageNonstatic obj = new DailyEmpWageNonstatic();
             // obj.CheckWage();
 
-             ParttimeEmpWageNonstatic obj = new ParttimeEmpWageNonstatic();
-             obj.CheckWage();
+            // ParttimeEmpWageNonstatic obj = new ParttimeEmpWageNonstatic();
+             //obj.CheckWage();
 
-            // SwitchcaseNonstatic obj = new SwitchcaseNonstatic();
-            //obj.CheckWage();
+             SwitchcaseNonstatic obj = new SwitchcaseNonstatic();
+             obj.CheckWage();
 
             //EmpMonthWageNonstatic obj = new EmpMonthWageNonstatic();
             //obj.CheckWage();
