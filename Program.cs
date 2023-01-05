@@ -8,11 +8,11 @@ namespace NonstaticEmpWage
         {
            // Console.WriteLine("Welcome to Employee Wage Computation by Non static method");
            
-            CheckAttendence obj = new CheckAttendence();
-            obj.check();
+           // CheckAttendence obj = new CheckAttendence();
+           // obj.check();
 
-            // DailyEmpWageNonstatic obj = new DailyEmpWageNonstatic();
-            //obj.CheckWage();
+             DailyEmpWageNonstatic obj = new DailyEmpWageNonstatic();
+             obj.CheckWage();
 
             // ParttimeEmpWageNonstatic obj = new ParttimeEmpWageNonstatic();
             // obj.CheckWage();
