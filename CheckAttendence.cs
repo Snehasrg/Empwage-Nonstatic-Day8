@@ -2,19 +2,22 @@
 {
     public class CheckAttendence
     {
-        public void check()
+        public static int checkR(int Employeee)
         {
-            int Is_Full_Time = 1;
-            Random R = new Random();
-            int empCheck = R.Next(2);
-            if (empCheck == Is_Full_Time)
+
+            Random random = new Random();
+            int check = random.Next(3);
+            if (Employeee == check)
             {
-                Console.WriteLine("Employee is present.");
+                Console.WriteLine("\n employee is present ");
+
+
             }
             else
             {
-                Console.WriteLine("Employee is absent.");
+                Console.WriteLine("\n employee is absent");
             }
+            return check;
         }
     }
 }
