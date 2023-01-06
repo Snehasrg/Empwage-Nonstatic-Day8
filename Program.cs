@@ -23,8 +23,11 @@ namespace NonstaticEmpWage
            // EmpMonthWageNonstatic obj = new EmpMonthWageNonstatic();
             //obj.CheckWage();
 
-            CondTotalNonstatic obj = new CondTotalNonstatic();
-            obj.CheckWage();
+          //  CondTotalNonstatic obj = new CondTotalNonstatic();
+           // obj.CheckWage();
+
+            RefactorCode obj= new RefactorCode();
+            obj.Cal_Wage(20, 100);
         }
     }
 }
